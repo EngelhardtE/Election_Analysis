@@ -6,11 +6,11 @@ The purpose of this election audit analysis is to use Python to process a .csv f
 
 ## Election Audit Results
 
--There were a total of 369,711 votes cast in the election
--The county vote breakdown was as follows: Denver 306,055 votes (82.8%), Jefferson 38,855 votes (10.5%), and Arapahoe 24,801 votes (6.7%)
--Denver county had the largest voter turnout
--The candidate vote breakdown is as follows: Diana DeGette 272,892 (73.8%), Charles Casper Stockham 85,213 (23%), and Raymon Anthony Doane 11,606 (3.1%)
--Diane DeGette won the election with a total of 272,892 votes, which was 73.8% of the total votes cast.
+- There were a total of 369,711 votes cast in the election 
+- The county vote breakdown was as follows: Denver 306,055 votes (82.8%), Jefferson 38,855 votes (10.5%), and Arapahoe 24,801 votes (6.7%)
+- Denver county had the largest voter turnout
+- The candidate vote breakdown is as follows: Diana DeGette 272,892 (73.8%), Charles Casper Stockham 85,213 (23%), and Raymon Anthony Doane 11,606 (3.1%)
+- Diane DeGette won the election with a total of 272,892 votes, which was 73.8% of the total votes cast.
 
 ## Election Audit Summary
 While this code works effectively for the data provided for this particular election, it could also be used for other elections with some minor modifications. Depending on how deep the desired analysis is, different amounts of variables may be provided. This could lead to rows in the .csv file being shifted around, which means that the following two lines of code would have to be altered: 
