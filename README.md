@@ -2,7 +2,7 @@
 
 ##Overview of Election Audit
 
-The purpose of this election audit analysis is to use Python to process a .csv file of votes into easy to read results. Intead of manually counting or having ti import the .csv into Excel everytime an election occurs, one can now simply use the provided .py file to obtain the election results. One is also given the breakdown on a county level, which allows for further analysis to be made on voter turnout.  
+The purpose of this election audit analysis is to use Python to process a .csv file of votes into easy-to-read results. Instead of manually counting or having to import the .csv into Excel every time an election occurs, one can now simply use the provided .py file to obtain the election results. One is also given the breakdown on a county level, which allows for further analysis to be made on voter turnout.  
 
 ##Election Audit Results
 
@@ -19,7 +19,7 @@ While this code works effectively for the data provided for this particular elec
           
           candidate_name = row[2]
           
-For example, if the county_name row were shifted two to the right in order to make space for new variables, or if the .csv file for the new election was simply formatted differently, then the new code would have to read: 
+For example, if the county_name row was shifted two to the right in order to make space for new variables, or if the .csv file for the new election was simply formatted differently, then the new code would have to read: 
          
          county_name = row[3]
           
