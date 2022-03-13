@@ -12,7 +12,7 @@ The purpose of this election audit analysis is to use Python to process a .csv f
 -The candidate vote breakdown is as follows: Diana DeGette 272,892 (73.8%), Charles Casper Stockham 85,213 (23%), and Raymon Anthony Doane 11,606 (3.1%)
 -Diane DeGette won the election with a total of 272,892 votes, which was 73.8% of the total votes cast.
 
-## Election-Audit Summary
+## Election Audit Summary
 While this code works effectively for the data provided for this particular election, it could also be used for other elections with some minor modifications. Depending on how deep the desired analysis is, different amounts of variables may be provided. This could lead to rows in the .csv file being shifted around, which means that the following two lines of code would have to be altered: 
             
           county_name = row[1]
